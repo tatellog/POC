@@ -1,0 +1,22 @@
+<div class="page-header">
+    <h1 id="home-h1">Congratulations!</h1>
+</div>
+<p id="home-content">
+    You have successfully created an AngularJs application running within a cordova app !
+</p>
+<div ng-controller="AppController">
+    <div class="resultWrapper">
+        <h1>{{ dataSet.startEvent._id }}</h1>
+        <h1>{{ dataSet.startEvent._name }}</h1>
+        <h1>{{ dataSet.userTask._name }}</h1>
+    </div>
+    <li ng-repeat="sequence in dataSet.sequenceFlow" ng-click="marcar()">
+        {{sequence._targetRef}}
+    </li>
+    <li ng-repeat="tareas in dataSet.task" ng-click="marcar()">
+        {{tareas._name}}
+    </li>
+    <li ng-repeat="tareas_id in dataSet.task" ng-click="marcar()">
+        {{tareas_id._id}}
+    </li>
+</div>

@@ -1,0 +1,15 @@
+{
+    "name": "banorte-poc",
+    "version": "1.0.0",
+    "description": "Esta es una app ",
+    "dependencies": {
+        "bootstrap": "~3.2.0",
+        "angular": "~1.2",
+        "angular-resource": "~1.2",
+        "angular-mocks": "~1.2",
+        
+        "angular-bootstrap": "~0.10.0",
+        "angular-ui-utils": "~0.1.1",
+        "angular-ui-router": "~0.2.10"
+    }
+}
